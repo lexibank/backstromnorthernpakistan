@@ -1,7 +1,7 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,Source_ID,List_ID,List_Name,Location,Note
 urdu,Urdu,urdu1245,Urdu,urd,,,,Indo-European,URDU,A,Urdu and Pashto,,
 pashto,Pashto,cent1973,Central Pashto,pst,,,,Indo-European,PASHTO,A,Urdu and Pashto,,
-ron,Rondu Balti,balt1258,Balti,bft,,35.468685,75.358422,Sino-Tibetan,RON,B,Balti,"Rondu Valley, Basho village",Coordinates were retrieved from epsg.io
+ronb,Rondu Balti,balt1258,Balti,bft,,35.468685,75.358422,Sino-Tibetan,RON_B,B,Balti,"Rondu Valley, Basho village",Coordinates were retrieved from epsg.io
 shg,Shigar Balti,balt1258,Balti,bft,,35.422616,75.737108,Sino-Tibetan,SHG,B,Balti,"Shigar Valley, Shigar and Churka villages",Coordinates were retrieved from epsg.io
 skb,Skardu Balti,balt1258,Balti,bft,,35.289137,75.607395,Sino-Tibetan,SKB,B,Balti,"Skardu Valley, Skardu town and Hussainabad village",Coordinates were retrieved from epsg.io
 khp,Khapalu Balti,balt1258,Balti,bft,,35.163409,76.342552,Sino-Tibetan,KHP,B,Balti,"Khapalu Valley, Konewa village",Coordinates were retrieved from epsg.io
@@ -15,11 +15,12 @@ gan,Ganish,hunz1248,Hunza,,,,,Burushaski,GAN,C,Burushaski,"Hunza, Ganish",
 naz,Nazimabad (Upper Sust) ,hunz1248,Hunza,,,,,Burushaski,NAZ,C,Burushaski,"Hunza (Gojal), Nazimabad",
 uyu,Uyum Nagar,naga1398,Nagar,,,,,Burushaski,UYU,C,Burushaski,"Nagar, Uyum Nagar",
 hop,Hoper,naga1398,Nagar,,,,,Burushaski,HOP,C,Burushaski,"Nagar, Hoper",
-yas,Yasin Center,yasi1237,Yasin,,,,,Burushaski,YAS,C,Burushaski,"Central Yasin, Yasin Bala",
+yasc,Yasin Center,yasi1237,Yasin,,,,,Burushaski,YAS_C,C,Burushaski,"Central Yasin, Yasin Bala",
 thu,Thui (Yasin),yasi1237,Yasin,,,,,Burushaski,THU,C,Burushaski,"Northern Yasin, Thui",
 psu,Passu,goja1238,Gojal,,,,,Indo-European,PSU,D,Wakhi,"Central Gojal, Passu",
 shm,Shimshal,,,,,36.435521,75.325492,Indo-European,SHM,D,Wakhi,"Shimshal, Shimshal",Coordinates were retrieved from epsg.io
 chp,Chapursan ,,,,,36.494474,74.294484,Indo-European,CHP,D,Wakhi,"Chapursan, Shar-e-savz",Coordinates were retrieved from epsg.io
+yas,Yasin,yasi1244,Yasin (Indo-European),,,,,Indo-European,YAS,D,Wakhi,"Yasin, Darkot",
 ish,Ishkoman,ishk1245,Ishkoman,,,,,Indo-European,ISH,D,Wakhi,"Ishkoman, Imit",
 domaaki,Domaaki,hunz1249,Hunza Domaaki,,,,,Indo-European,DOMAAKI,E,Domaaki,"Mominabad, Hunza",
 gup,Gupis,,,,,36.227407,73.442007,Indo-European,GUP,F,Shina,"Gupis Shina, Gupis",Coordinates were retrieved from epsg.io
@@ -31,6 +32,7 @@ gil,Gilgit,gilg1243,Gilgit,,,,,Indo-European,GIL,F,Shina,"Gilgit Shina, Domial a
 sas,Haramosh,hara1257,Haramosh,,,,,Indo-European,SAS,F,Shina,"Haramosh Shina, Sassi in Haramosh",
 bag,Bagrot,bagr1244,Bagrote,,,,,Indo-European,BAG,F,Shina,"Bagrot Shina, Datuche in Bagrote",
 bun,Bunji,bunj1245,Bunji,,,,,Indo-European,BUN,F,Shina,"Bunji Shina, Bunji",
+ron,Rondu,rond1238,Rondu,,,,,Indo-European,RON,F,Shina,"Rondu Shina, Sabsar Drot in Rondu",
 goh,Gahorabad,,,,,36.098361,73.975326,Indo-European,GOH,F,Shina,"Goharabad Shina, Goharabad near Chilas",Coordinates were retrieved from epsg.io
 dsh,Dashkin (Astor),,,,,35.476599,74.774062,Indo-European,DSH,F,Shina,"Dashkin Shina, Dashkin in lower Astor",Coordinates were retrieved from epsg.io
 ast,Astor,asto1243,Astor,,,,,Indo-European,AST,F,Shina,"Astor Shina, Center Astor Valley",

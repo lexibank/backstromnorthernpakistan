@@ -1,7 +1,7 @@
 Source_ID	Name	Glottolog_Name	Glottocode	ISO639P3code	List_ID	List_Name	Location	Family	Latitude	Longitude	Note
 URDU	Urdu	Urdu	urdu1245	urd	A	Urdu and Pashto		Indo-European			
 PASHTO	Pashto	Central Pashto	cent1973	pst	A	Urdu and Pashto		Indo-European			
-RON	Rondu Balti	Balti	balt1258	bft	B	Balti	Rondu Valley, Basho village	Sino-Tibetan	35.468685	75.358422	Coordinates were retrieved from epsg.io
+RON_B	Rondu Balti	Balti	balt1258	bft	B	Balti	Rondu Valley, Basho village	Sino-Tibetan	35.468685	75.358422	Coordinates were retrieved from epsg.io
 SHG	Shigar Balti	Balti	balt1258	bft	B	Balti	Shigar Valley, Shigar and Churka villages	Sino-Tibetan	35.422616	75.737108	Coordinates were retrieved from epsg.io
 SKB	Skardu Balti	Balti	balt1258	bft	B	Balti	Skardu Valley, Skardu town and Hussainabad village	Sino-Tibetan	35.289137	75.607395	Coordinates were retrieved from epsg.io
 KHP	Khapalu Balti	Balti	balt1258	bft	B	Balti	Khapalu Valley, Konewa village	Sino-Tibetan	35.163409	76.342552	Coordinates were retrieved from epsg.io
@@ -15,7 +15,7 @@ GAN	Ganish	Hunza	hunz1248		C	Burushaski	Hunza, Ganish	Burushaski
 NAZ	Nazimabad (Upper Sust) 	Hunza	hunz1248		C	Burushaski	Hunza (Gojal), Nazimabad	Burushaski			
 UYU	Uyum Nagar	Nagar	naga1398		C	Burushaski	Nagar, Uyum Nagar	Burushaski			
 HOP	Hoper	Nagar	naga1398		C	Burushaski	Nagar, Hoper	Burushaski			
-YAS	Yasin Center	Yasin	yasi1237		C	Burushaski	Central Yasin, Yasin Bala	Burushaski			
+YAS_C	Yasin Center	Yasin	yasi1237		C	Burushaski	Central Yasin, Yasin Bala	Burushaski			
 THU	Thui (Yasin)	Yasin	yasi1237		C	Burushaski	Northern Yasin, Thui	Burushaski			
 PSU	Passu	Gojal	goja1238		D	Wakhi	Central Gojal, Passu	Indo-European			
 SHM	Shimshal				D	Wakhi	Shimshal, Shimshal	Indo-European	36.435521	75.325492	Coordinates were retrieved from epsg.io

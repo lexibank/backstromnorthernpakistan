@@ -1,9 +1,17 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "",
+    "dc:bibliographicCitation": "Backstrom, Peter C. and Radloff, Carla F. (1992): Sociolinguistic Survey of Northern Pakistan, Volume 2. Languages of Northern Areas. Islamabad: National Institute of Pakistan Studies.",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:description": null,
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210a",
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210b",
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210c",
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210d",
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210e",
+        "http://concepticon.clld.org/contributions/Backstrom-1992-210f"
+    ],
     "dc:identifier": "",
     "dc:isVersionOf": null,
     "dc:license": null,
@@ -123,7 +131,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 49,
+            "dc:extent": 51,
             "tableSchema": {
                 "columns": [
                     {
