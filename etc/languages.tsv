@@ -1,0 +1,52 @@
+Source_ID	Name	Glottolog_Name	Glottocode	ISO639P3code	List_ID	List_Name	Location	Family	Latitude	Longitude	Note
+URDU	Urdu	Urdu	urdu1245	urd	A	Urdu and Pashto		Indo-European			
+PASHTO	Pashto	Central Pashto	cent1973	pst	A	Urdu and Pashto		Indo-European			
+RON_B	Rondu Balti	Balti	balt1258	bft	B	Balti	Rondu Valley, Basho village	Sino-Tibetan	35.468685	75.358422	Coordinates were retrieved from epsg.io
+SHG	Shigar Balti	Balti	balt1258	bft	B	Balti	Shigar Valley, Shigar and Churka villages	Sino-Tibetan	35.422616	75.737108	Coordinates were retrieved from epsg.io
+SKB	Skardu Balti	Balti	balt1258	bft	B	Balti	Skardu Valley, Skardu town and Hussainabad village	Sino-Tibetan	35.289137	75.607395	Coordinates were retrieved from epsg.io
+KHP	Khapalu Balti	Balti	balt1258	bft	B	Balti	Khapalu Valley, Konewa village	Sino-Tibetan	35.163409	76.342552	Coordinates were retrieved from epsg.io
+KMG	Kharmang Balti	Balti	balt1258	bft	B	Balti	Kharmang Valley	Sino-Tibetan	76.213849	34.968679	Coordinates were retrieved from epsg.io
+CHO	Chorbat Balti	Balti	balt1258	bft	B	Balti	Chorbat, Siksa village	Sino-Tibetan	34.979586	72.680387	Coordinates were retrieved from epsg.io
+PSK	Skardu Purki	Purik-Sham-Nubra	puri1258	prx	B	Balti	Skardu Purki	Sino-Tibetan			
+HUS	Hussainabad	Hunza	hunz1248		C	Burushaski	Hunza, Hussainabad	Burushaski			
+MUR	Murtazabad	Hunza	hunz1248		C	Burushaski	Hunza, Murtazabad	Burushaski			
+HYD	Haiderabad	Hunza	hunz1248		C	Burushaski	Hunza, Haiderabad	Burushaski			
+GAN	Ganish	Hunza	hunz1248		C	Burushaski	Hunza, Ganish	Burushaski			
+NAZ	Nazimabad (Upper Sust) 	Hunza	hunz1248		C	Burushaski	Hunza (Gojal), Nazimabad	Burushaski			
+UYU	Uyum Nagar	Nagar	naga1398		C	Burushaski	Nagar, Uyum Nagar	Burushaski			
+HOP	Hoper	Nagar	naga1398		C	Burushaski	Nagar, Hoper	Burushaski			
+YAS_C	Yasin Center	Yasin	yasi1237		C	Burushaski	Central Yasin, Yasin Bala	Burushaski			
+THU	Thui (Yasin)	Yasin	yasi1237		C	Burushaski	Northern Yasin, Thui	Burushaski			
+PSU	Passu	Gojal	goja1238		D	Wakhi	Central Gojal, Passu	Indo-European			
+SHM	Shimshal				D	Wakhi	Shimshal, Shimshal	Indo-European	36.435521	75.325492	Coordinates were retrieved from epsg.io
+CHP	Chapursan 				D	Wakhi	Chapursan, Shar-e-savz	Indo-European	36.494474	74.294484	Coordinates were retrieved from epsg.io
+YAS	Yasin	Yasin (Indo-European)	yasi1244		D	Wakhi	Yasin, Darkot	Indo-European			
+ISH	Ishkoman	Ishkoman	ishk1245		D	Wakhi	Ishkoman, Imit	Indo-European			
+DOMAAKI	Domaaki	Hunza Domaaki	hunz1249		E	Domaaki	Mominabad, Hunza	Indo-European			
+GUP	Gupis				F	Shina	Gupis Shina, Gupis	Indo-European	36.227407	73.442007	Coordinates were retrieved from epsg.io
+PUN	Punial	Punial	puni1238		F	Shina	Punial Shina, Hatoon, Bubur, Gakuch in Punial	Indo-European			
+HUN	Hunza(Nasirabad)	Hunza-Nagar	hunz1246		F	Shina	Hunza Shina, Nasirabad (Hini) in Hunza	Indo-European			
+NAG	Nagar(Thol)	Hunza-Nagar	hunz1246		F	Shina	Nagar Shina, Thol in Nagar	Indo-European			
+CLT	Nagar(Chalt)	Hunza-Nagar	hunz1246		F	Shina	Chalt Shina, Chalt and Budelas (near Chalt)	Indo-European			
+GIL	Gilgit	Gilgit	gilg1243		F	Shina	Gilgit Shina, Domial and Henzel in Gilgit	Indo-European			
+SAS	Haramosh	Haramosh	hara1257		F	Shina	Haramosh Shina, Sassi in Haramosh	Indo-European			
+BAG	Bagrot	Bagrote	bagr1244		F	Shina	Bagrot Shina, Datuche in Bagrote	Indo-European			
+BUN	Bunji	Bunji	bunj1245		F	Shina	Bunji Shina, Bunji	Indo-European			
+RON	Rondu	Rondu	rond1238		F	Shina	Rondu Shina, Sabsar Drot in Rondu	Indo-European			
+GOH	Gahorabad				F	Shina	Goharabad Shina, Goharabad near Chilas	Indo-European	36.098361	73.975326	Coordinates were retrieved from epsg.io
+DSH	Dashkin (Astor)				F	Shina	Dashkin Shina, Dashkin in lower Astor	Indo-European	35.476599	74.774062	Coordinates were retrieved from epsg.io
+AST	Astor	Astor	asto1243		F	Shina	Astor Shina, Center Astor Valley	Indo-European			
+KAC	Kachura (Jel)				F	Shina	Kachura Shina, Jel (Tsok) in Kachura Valley	Indo-European	35.439487	75.449668	Coordinates were retrieved from epsg.io
+SAT	Satpara	Satpara	satp1241		F	Shina	Satpara Shina, Satpara (Saspur) Valley	Indo-European			
+GUL	Gultari				F	Shina	Gultari Shina, Bunial in Gultari	Indo-European	34.660371	75.539611	Coordinates were retrieved from epsg.io
+KRM	Kharmang	Kharmangi	khar1285		F	Shina	Kharmang Shina, Tarkati in Kharmang	Indo-European			
+DRS	Dras	Dras	dras1242		F	Shina	Dras Shina, Bhimbhat in Dras (India)	Indo-European			
+CHK	Chilas (Khinar)	Chilas	chil1277		F	Shina	Chilas Shina, Khinar in Tok Nala in Chilas	Indo-European			
+CHJ	Chilas (Jelil)	Chilas	chil1277		F	Shina	Chilas Shina, Jelil in Chilas	Indo-European			
+DAR	Darel	Darel	dare1241		F	Shina	Darel Shina, Gayal and Samegal in Darel	Indo-European			
+TAN	Tangir	Tangir	tang1331		F	Shina	Tangir Shina, Gabbar in Tangir	Indo-European			
+SAZ	Sazin	Sazin	sazi1238		F	Shina	Sazin Shina, Sazin	Indo-European			
+HAR	Harban	Harban	harb1238		F	Shina	Harban Shina, Ting in Harban	Indo-European			
+JAL	Jalkot	Jalkoti	jalk1241		F	Shina	Jalkot Shina, Uchar Nalla in Jalkot	Indo-European			
+PAL	Palas	Palasi	pala1333		F	Shina	Palas Shina, Palas	Indo-European			
+KOL	Kolai	Kolai	kola1284		F	Shina	Kolai Shina, Mahrin in Kolai	Indo-European			
