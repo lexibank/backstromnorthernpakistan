@@ -30,8 +30,14 @@ Yasin Center | YAS | YAS_C
 ![Glottolog: 86%](https://img.shields.io/badge/Glottolog-86%25-yellowgreen.svg "Glottolog: 86%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
+![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 51
 - **Concepts:** 1,233
 - **Lexemes:** 11,343
 - **Synonymy:** 1.10
+- **Invalid lexemes:** 0
+- **Tokens:** 50,770
+- **Segments:** 271 (0 BIPA errors, 0 CTLS sound class errors, 269 CLTS modified)
+- **Inventory size (avg):** 96.02
