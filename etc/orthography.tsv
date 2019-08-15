@@ -8,7 +8,7 @@ o	o	domaaki, chk, kac, pal, sat, krm, cho, chj, nag, psk, clt, goh, khp, kol, da
 o$	o	krm, saz, sat, kac, dar, ron, tan, har, gul, chj, chk, goh, gup, shg, khp, ronb, skb, kmg, drs, cho, bag, psk, gil, hun, bun, nag, urdu, dsh, clt, ast, sas, hop, hyd, mur, gan, naz, pun, domaaki, jal, hus, pal, uyu, kol, thu, yasc, shm, yas, psu, chp, ish, pashto
 i	i	naz, domaaki, gan, ish, psu, jal, mur, hus, kol, chp, hop, urdu, pal, uyu, yas, shm, hyd, chk, pun, cho, gup, sat, khp, gil, dsh, goh, tan, har, pashto, chj, saz, ronb, krm, clt, gul, shg, psk, bun, hun, dar, ron, skb, bag, nag, ast, thu, sas, kmg, yasc, kac, drs
 s	s̪	dar, pal, pun, kac, gil, sat, goh, chj, gup, bun, chk, sas, jal, dsh, tan, ast, bag, shm, psu, domaaki, nag, kol, chp, clt, har, pashto, ron, gul, hun, ish, krm, yas, yasc, uyu, saz, naz, hyd, mur, gan, hop, hus, thu, urdu, kmg, skb, psk, shg, ronb, cho, khp, drs
-_	_	urdu, pashto, sat, sas, kac, gil, chj, hun, dsh, ast, chk, ron, pun, goh, nag, clt, bag, bun, pal, gup, dar, gul, jal, krm, kol, tan, har, saz, domaaki, naz, hop, uyu, gan, thu, hyd, mur, hus, yasc, yas, chp, ish, psu, shm, drs, psk, cho, khp, skb, kmg, shg, ronb
+_	+	urdu, pashto, sat, sas, kac, gil, chj, hun, dsh, ast, chk, ron, pun, goh, nag, clt, bag, bun, pal, gup, dar, gul, jal, krm, kol, tan, har, saz, domaaki, naz, hop, uyu, gan, thu, hyd, mur, hus, yasc, yas, chp, ish, psu, shm, drs, psk, cho, khp, skb, kmg, shg, ronb
 i$	i	dar, kol, urdu, gil, clt, domaaki, sas, gup, kac, ron, tan, saz, chk, nag, hun, krm, pun, chj, bag, ast, har, sat, dsh, bun, drs, goh, jal, pal, gul, ish, yas, chp, mur, naz, hyd, uyu, shm, thu, psu, gan, hus, yasc, hop, kmg, psk, skb, cho, khp, shg, ronb, pashto
 r	r̪	pashto, urdu, pal, kol, jal, cho, shg, ish, skb, kmg, psk, ronb, krm, khp, chk, sat, chp, yas, tan, psu, dar, shm, gil, chj, ron, sas, nag, goh, ast, gul, hus, clt, gup, har, thu, naz, hyd, mur, saz, yasc, hun, hop, kac, uyu, gan, domaaki, dsh, bun, bag, pun, drs
 t	t̪	urdu, dsh, pashto, ast, jal, tan, gup, hun, bun, clt, pal, yasc, gil, chj, chk, thu, psk, pun, kac, nag, kol, domaaki, ron, skb, sat, goh, sas, bag, cho, saz, gul, har, khp, dar, hop, shg, ronb, hus, krm, hyd, uyu, mur, kmg, drs, naz, gan, chp, ish, yas, shm, psu
@@ -65,7 +65,7 @@ z	z̪	pashto, shm, shg, ish, chp, psu, yas, skb, kmg, kol, cho, khp, dar, sat, r
 š	ɕ	pashto, domaaki, kmg, shm, skb, psu, chj, gan, shg, naz, hyd, cho, khp, chp, dar, clt, goh, uyu, mur, tan, yas, hop, jal, ronb, har, gil, ish, ast, saz, urdu, chk, kac, hus, kol, sat, ron, sas, gul, nag, pal, krm, thu, yasc, psk, hun, dsh, bun, bag, gup, pun
 ^ˈɑ	ˈɑ/ɑ	dar, chk, gup, gil, bag, krm, ast, saz, nag, har, dsh, clt, jal, kol, hun, pun, gul, ron, sas, chj, tan, sat, drs, kac, goh, uyu, mur, gan, hop, hus, naz, yasc, hyd, bun, pal, thu, domaaki
 ^ǰ	dʑ	chj, pal, chk, domaaki, sas, bag, jal, kol, gil, hun, bun, clt, goh, urdu, gul, nag, dsh, pun, pashto, dar, ron, uyu, mur, tan, gan, saz, hop, hus, krm, naz, hyd, ast, gup, drs, kac, har, yas, shm, shg, thu, sat, chp, psu, skb, ronb, yasc, khp
-ɑɑ	ɑ ɑ	gul, ron, sas, thu, yasc, dar, bun, krm, pun, mur, hus, naz, hyd, uyu, gan, hop, clt, gup, pal, tan, bag, saz, nag, har, ast, chk, kac, jal, kol, hun, dsh, goh, chj, gil, drs, sat
+ɑɑ	ɑː	gul, ron, sas, thu, yasc, dar, bun, krm, pun, mur, hus, naz, hyd, uyu, gan, hop, clt, gup, pal, tan, bag, saz, nag, har, ast, chk, kac, jal, kol, hun, dsh, goh, chj, gil, drs, sat
 ^pʰ	pʰ	sas, kac, sat, clt, goh, ron, ast, bag, psk, dsh, skb, kmg, cho, khp, hun, pun, gul, dar, domaaki, chj, tan, gup, shg, hus, gil, bun, drs, urdu, chk, nag, ronb, krm, har, saz, yas, kol, naz, psu, mur, gan, hop, shm, jal, pal, yasc, hyd, chp, ish
 ^r	ɾ̪/ɾ	cho, skb, kmg, psk, psu, chp, shm, yas, khp, ish, ronb, urdu, shg, gil, nag, ron, drs, pal, sas, kol, pashto, domaaki, tan, bag, gup, saz, kac, jal, krm, thu, pun
 i̱$	i̠/i	ast, bun, jal, gil, pun, sas, gup, dsh, clt, chj, pal, gul, nag, bag, hun, goh, tan, saz, chk, kac, kol, sat, ron, har
@@ -127,7 +127,7 @@ w	β̞	pashto, urdu, hun, sas, domaaki, chj, gup, chk, gil, clt, bag, kmg, nag, 
 č̣	ʈʂ	sas, pal, uyu, bag, clt, mur, gan, hop, chk, jal, thu, naz, hyd, hun, dar, goh, ron, chj, tan, gup, nag, hus, har, sat, yasc, pun, ast, saz, kac, kol, gil, dsh, bun
 ˈw	ˈβ̞/β̞	thu, sas, ast, jal, yasc, gul, goh, clt, ron, mur, tan, bag, gan, yas, shm, kac, nag, pal, krm, har, kol, naz, sat, hyd, chp, ish, psu, dsh, dar, bun, domaaki, uyu, chj, gup, saz, hop, drs, chk, hus, gil, hun, pun
 ^ˈč	ˈtɕ/tɕ	bag, chj, dsh, chk, nag, gul, clt, sas, ast, gup, pal, gil, hun, pun, kac, jal, krm, sat, dar, bun, goh, domaaki, ron, uyu, mur, tan, gan, saz, hop, drs, hus, har, kol, naz, hyd
-^t͡s	tθ	skb, kmg, yas, shg, ronb, khp, thu, yasc, psk, cho, ish, kol, psu, pal, har, ron, uyu, mur, tan, ast, gan, saz, hop, shm, drs, kac, jal, hus, krm, naz, sat, chp, gul
+^t͡s	ts̪	skb, kmg, yas, shg, ronb, khp, thu, yasc, psk, cho, ish, kol, psu, pal, har, ron, uyu, mur, tan, ast, gan, saz, hop, shm, drs, kac, jal, hus, krm, naz, sat, chp, gul
 ˈb	ˈb/b	nag, domaaki, bag, jal, pal, krm, chj, drs, kol, gil, bun, clt, sas, gup, saz, yas, chk, har, psu, dsh, pun, dar, goh, ron, uyu, tan, ast, gan, hop, shm, thu, naz, sat, yasc, chp, hun, ish, gul
 ^č̣	ʈʂ	drs, ronb, gul, skb, tan, ast, kac, shg, dsh, chj, saz, shm, chk, nag, jal, pal, har, krm, sat, khp, chp, psu, dar, clt, goh, domaaki, ron, sas, mur, bag, gan, gup, yas, hop, hus, kol, naz, hyd, gil, hun, pun, bun
 z$	z̪	yas, ish, chp, psu, shm, nag, urdu, jal, pal, kol, pashto, sas, yasc, gil, goh, ron, drs, krm, hun, bun
@@ -138,7 +138,7 @@ h	h	urdu, domaaki, kac, ron, pal, sat, pashto, mur, gup, chk, jal, naz, yasc, gi
 ɑ̱	ɑ̠/ɑ	bun, hun, bag, clt, gil, ast, sas, dsh, pun, jal, pal, chj, nag, krm, gul, dar, gup
 u̱$	u̠/u	nag, clt, pal, jal, gil, hun, bun, sas, chk, chj, ast, gup, kol, dsh, pun, gul, bag, krm, dar
 ˈṛ	ˈɽ/ɽ	sat, gul, tan, krm, kol, ron, saz, drs, har, clt, sas, ast, bag, chk, nag, jal, pal, hun, dsh, bun, chj, gup, kac, gil, pun, dar
-t͡s$	tθ	uyu, hop, gan, mur, hus, naz, hyd, clt, hun, thu, sas, bag, domaaki, ron, yas, shm, nag, yasc, chp, ish, psu
+t͡s$	ts̪	uyu, hop, gan, mur, hus, naz, hyd, clt, hun, thu, sas, bag, domaaki, ron, yas, shm, nag, yasc, chp, ish, psu
 kʰ$	kʰ	yas, shm, psu, chp, goh, chj, urdu, chk, kac, kol, ish, clt, domaaki, ron, sas, tan, bag, ast, gup, kmg, saz, drs, gul, nag, jal, pal, krm, har, sat, gil, hun, dsh, pun, pashto, dar, bun
 ^ˈh	ˈh/h	chj, dsh, ast, chk, yasc, bun, clt, tan, gup, saz, drs, kac, jal, pal, thu, kol, sat, pun, gul, goh, ron, uyu, sas, mur, gan, hop, nag, hus, har, krm, naz, hyd, gil, hun, dar
 ɑ̃	ɑ̃	kac, psk, dsh, clt, kmg, urdu, nag, sat, gul, goh, ron, sas, bag, pal, krm, pun, domaaki, chj, tan, ast, gup, drs, chk, shg, jal, ronb, har, cho, gil, hun
@@ -364,7 +364,7 @@ oˑ$	oˑ	psu, psk, cho, shg, skb
 ^õ	õ	kmg, psk, cho, shg, khp, ronb
 ^kʰʸ	kʰʲ	kmg, shg, khp, cho, ronb, skb
 ˈỵ	ˈɻ/ɻ	hyd, hop, uyu, hus, mur, gan
-^ˈt͡sʰ	ˈtθʰ/tθʰ	naz, hyd, uyu, hus, mur, gan
+^ˈt͡sʰ	ˈt͡sʰ/ts̪	naz, hyd, uyu, hus, mur, gan
 fs$	f s̪	shm, yas, chp, ish, psu
 ^ɣ̯	ɣ̯/ɣ	psu, yas, chp, ish, shm
 ž$	ʑ	shm, yas, chp, ish, psu
@@ -382,28 +382,28 @@ h$	h	urdu, hop, uyu
 ɔ$	ɔ	chp, pashto, ish, psu
 ^bʰ	bʰ	urdu, kac
 ^ɔ	ɔ	psu, ish, urdu, chp
-^d͡z	dð	cho, psk, yas, dar
+^d͡z	dz̪	cho, psk, yas, dar
 qs	q s̪	kmg, psk, shg, cho, skb
 ^ɸ	ɸ	kmg, ronb, shg, khp
 uʰ$	uʰ/u	khp, kmg, shg
 qs$	q s̪	kmg, psk, cho, shg, skb
 ˈqʰ	ˈqʰ/qʰ	naz, hyd, hop, uyu, gan
-ˈt͡sʰ	ˈtθʰ/tθʰ	naz, hyd, hus, mur, gan
+ˈt͡sʰ	ˈt͡sʰ/ts̪	naz, hyd, hus, mur, gan
 ʊˑ	ʊˑ	chp, shm, ish, psu
 ˈv	ˈv/v	yas, chp, ish, psu, shm
 ɛ̀	ɛ̀/ɛ	nag, hun, bun
 ˈr̃	ˈr̪/r̪	pun, tan, hun, bag
-ˈž	ˈʑ/ʑ	gil, kol, dar
+ˈž	ˈž/ʑ	gil, kol, dar
 ^oo	o o	kac, drs, dsh, krm, gul
 ɛ́$	ɛ́/ɛ	nag, gil, hun, dar
 ^ɑⁱ$	ɑi	chj, goh, chk
-ᶺõ$	ɜo	ast, dsh, gul, bun
+ᶺõ$	ᶺõ/ɜo	ast, dsh, gul, bun
 ɛ̃	ɛ̃	hop, tan, krm, urdu
 ẽ$	ẽ	urdu, drs, saz
 ns	n̪ s̪	shm, psu, urdu, chp
 ^n̥	n̥	shg
 ^ps	p s̪	ronb, khp, shg, skb
-t͡sʰ	tθʰ	hop, uyu, yasc
+t͡sʰ	t͡sʰ/ts̪ʰ	hop, uyu, yasc
 ^qʰ	qʰ	hop, uyu, psu, domaaki
 ʌʰ$	ɜʰ/ɜ	chj, thu, yasc, chk
 θ$	θ	chp, shm, psu
@@ -421,13 +421,13 @@ oⁱ$	oi	krm, sat, saz, gul
 č̣ʰ	ʈʂʰ	gil, nag, dsh, clt
 ^čʷ	tɕʷ	drs, sat, saz, gul
 ^ɑ̀	ɑ̀/ɑ	kac, sat
-ᵘe	ue	dar, nag, bun, dsh
+ᵘe	u/w e	dar, nag, bun, dsh
 ^ɣw	ɣ β̞	pashto
 ^i$	i	urdu
 -	+	urdu
-lh	l h	psu, urdu, chp
+lh	lʱ	psu, urdu, chp
 tˑ	t̪ˑ	urdu
-bʰ	bʰ	urdu
+bʰ	bʱ	urdu
 eⁱ	ei	pashto, clt, bun
 kʸ	kʲ	krm, cho, khp
 ^ñ̥	ȵ̊	shg, cho
@@ -457,18 +457,18 @@ lʸ	lʲ	gil, pun, kac
 ˈtʸ	ˈt̪ʲ/t̪ʲ	nag, hun, clt
 æ$	æ	chj, kol
 ɔ̃$	ɔ̃	chj, kac, sat
-ⁱũ$	iũ	gil, sas, ron
-ᶦo$	ɪ o	pal, jal
-ᵘĩ$	uĩ	krm, chk, tan
-^gʰ	gʰ	kac, urdu
+ⁱũ$	i/j ũ	gil, sas, ron
+ᶦo$	ɪ/j o	pal, jal
+ᵘĩ$	u/w ĩ	krm, chk, tan
+^gʰ	gʱ	kac, urdu
 rw	ɾ̪/ɾ β̞	pashto, urdu
 sw	s̪ β̞	pashto
 tʰˑ	t̪ʰˑ	urdu
 sˑ	s̪ˑ	urdu
-^dʰ	d̪ʰ	urdu
+^dʰ	d̪ʱ	urdu
 ^gw	g β̞	pashto
 čʰˑ	tɕʰˑ	urdu
-ẽʸ	ẽĩ	urdu
+ẽʸ	ẽi	urdu
 ɑˑ	ɑˑ	domaaki, urdu
 ʌⁱ	ɜi	pashto
 lw	l β̞	pashto
@@ -480,14 +480,14 @@ lw	l β̞	pashto
 eˑ	eˑ	thu, domaaki
 ˈʌ$	ˈɜ/ɜ	thu, yasc
 ˈɪ$	ˈɪ/ɪ	thu, yasc
-ǰʰ	dʑʰ	shm, psu
+ǰʰ	dʑʱ	shm, psu
 u̥	u̥	psu
 n̥$	n̪̊	psu, chp
 ^æ	æ	har, domaaki
 ^pʷ	pʷ	pal, kol
 ũ̱$	ũ̠/ũ	sas, bun
-uⁱ̃$	uĩ	chj, goh
-uⁱ$	ui	dar, ast
+uⁱ̃$	u/w ĩ	chj, goh
+uⁱ$	u/w i	dar, ast
 ˈkʷ	ˈkʷ/kʷ	pal, jal
 ˈĩ	ˈĩ/ĩ	pun, gup
 ^ˈɑ̀	ˈɑ̀/ɑ	chj, chk
@@ -505,16 +505,16 @@ sᶺ	s̪ ɜ	chj, pal
 ᵅo$	ɑo	bag
 ɑᵉ	ɑe	dar
 ᵅe	ɑe	sat
-ᵘʌ$	uɜ	bun
-ᵘɑ$	uɑ	nag
-ⁱo$	io	jal
-ⁱo̱$	io̱/o	ast
-ⁱu$	iu	gul
+ᵘʌ$	u/w ɜ	bun
+ᵘɑ$	u/w ɑ	nag
+ⁱo$	i/j o	jal
+ⁱo̱$	i/j o̱/o	ast
+ⁱu$	i/j u	gul
 ᵉo$	eo	saz
 ᵉu$	eu	krm
-ᵘe$	ue	kol
+ᵘe$	u/w e	kol
 ḍˑ	ɖˑ	urdu
-^ǰʰ	dʑʰ	urdu
+^ǰʰ	dʑʱ	urdu
 ^nw	n̪ β̞	pashto
 ṭˑ	ʈˑ	urdu
 ɑ̃ˑ	ɑ̃ˑ	urdu
@@ -556,7 +556,7 @@ uˑ	uˑ	yas
 ˈgʷ	ˈgʷ/gʷ	ron
 ˈŋʷ	ˈŋʷ/ŋʷ	drs
 gw	g β̞	pal
-^hiiᵘ$	h i iu	jal
+^hiiᵘ$	h i i/j u	jal
 ^lᶺh	l ɜ h	kol
 ḍᶺ	ɖ ɜ	dar
 ^ˈpʷ	ˈpʷ/pʷ	jal
@@ -568,11 +568,11 @@ dᶺ	d̪ ɜ	kac
 ŋᵏ$	ŋ k	hun
 æ̃	æ̃	drs
 ˈe$	ˈe/e	dar
-pp	p p	gul
+pp	pː	gul
 tᶺ	t̪ ɜ	jal
 ì$	ì/i	sat
 ˈkw	ˈk/k β̞	kol
-ɛɛ$	ɛ ɛ	krm
+ɛɛ$	ɛː	krm
 ĩĩ	ĩ ĩ	pun
 ũ̱	ũ̠/ũ	sas
 ˈɛ̃	ˈɛ̃/ɛ̃	tan
@@ -582,7 +582,7 @@ tᶺ	t̪ ɜ	jal
 eᵘ$	eu	drs
 ˈkʸ	ˈkʲ/kʲ	clt
 zᶺ	z̪ ɜ	sas
-ɑʷ	ɑ  β̞	gul
+ɑʷ	ɑʷ/ɑu	gul
 ṇᶺ	ɳ ɜ	saz
 ˈõ$	ˈõ/õ	dsh
 oⁱ	oi	nag
@@ -596,13 +596,13 @@ tʸ	t̪ʲ	ron
 ɑ̃ᵒ$	ɑ̃ o	krm
 ˈnʸ	ˈn̪ʲ/n̪ʲ	krm
 ^ɑɑ	ɑ ɑ	ast
-uʷ	u β̞	krm
+uʷ	uʷ/u	krm
 ɛ̃ɛ̃	ɛ̃  ɛ̃	gup
 ʌᶦ	ɜi	kol
 ^ɛʰ$	ɛ h	bag
 ^e$	e	drs
 ˈḍʸ	ˈɖʲ/ɖʲ	drs
 õ̱$	õ̠/õ	jal
-^oo$	o o	ron
+^oo$	oː	ron
 ˈɛ$	ˈɛ/ɛ	har
-^guu̱ṇi$	g u u̱/u ɳ i	saz
+^guu̱ṇi$	g uu̱/uː ɳ i	saz
