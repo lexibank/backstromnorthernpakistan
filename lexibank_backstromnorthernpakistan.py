@@ -4,20 +4,15 @@ from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank.dataset import Concept, Language
-from tqdm import tqdm
+from pylexibank.util import pb
 import csv
 
 
 @attr.s
 class Language(Language):
     Source_ID = attr.ib(default=None)
-    Name = attr.ib(default=None)
-    Glottolog_Name = attr.ib(default=None)
-    Glottocode = attr.ib(default=None)
-    ISO639P3code = attr.ib(default=None)
     List_ID = attr.ib(default=None)
     List_Name = attr.ib(default=None)
-    Family = attr.ib(default=None)
     Location = attr.ib(default=None)
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
@@ -55,11 +50,10 @@ class Dataset(BaseDataset):
         with self.cldf as ds:
             ds.add_sources(*self.raw.read_bib())
 
-            add_lang = {}
-            for language in self.languages:
-                langid = slug(language['Source_ID'])
-                ds.add_languages(id_factory=lambda x: slug(x['Source_ID']))
-                add_lang[language['Source_ID'].strip()] = langid
+            add_lang = {language['Source_ID']: slug(language['Name'],
+                lowercase=False) for language in self.languages}
+            ds.add_languages(id_factory=lambda x: slug(x['Name'],
+                lowercase=False))
 			
             for concept in self.concepts:
                 ds.add_concept(
@@ -69,17 +63,13 @@ class Dataset(BaseDataset):
                     Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
                 )
 
-            for idx, entry in tqdm(enumerate(data), desc='make-cldf'):
+            for idx, entry in pb(enumerate(data), desc='make-cldf'):
                 entry.pop('ENGLISH')
                 entry.pop('LIST ID')
                 glossid = entry.pop('GLOSS ID')
-
                 for lang, value in entry.items():
-                    lang = lang.strip()
-
-                    for row in ds.add_lexemes(
-                        Language_ID=add_lang[lang],
+                    ds.add_forms_from_value(
+                        Language_ID=add_lang[lang.strip()],
                         Parameter_ID=glossid,
                         Value=value,
-                        Source=['Backstrom1992']):
-                        pass
+                        Source=['Backstrom1992'])

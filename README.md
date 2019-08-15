@@ -36,8 +36,9 @@ Yasin Center | YAS | YAS_C
 - **Varieties:** 51
 - **Concepts:** 1,233
 - **Lexemes:** 11,343
+- **Sources:** 1
 - **Synonymy:** 1.10
 - **Invalid lexemes:** 0
-- **Tokens:** 50,770
-- **Segments:** 271 (0 BIPA errors, 0 CTLS sound class errors, 269 CLTS modified)
-- **Inventory size (avg):** 96.02
+- **Tokens:** 50,502
+- **Segments:** 281 (0 BIPA errors, 0 CTLS sound class errors, 279 CLTS modified)
+- **Inventory size (avg):** 97.35
