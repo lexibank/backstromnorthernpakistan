@@ -5,7 +5,7 @@ RON_B	Rondu Balti	Balti	balt1258	bft	B	Balti	Rondu Valley, Basho village	Sino-Ti
 SHG	Shigar Balti	Balti	balt1258	bft	B	Balti	Shigar Valley, Shigar and Churka villages	Sino-Tibetan	35.422616	75.737108	Coordinates were retrieved from epsg.io
 SKB	Skardu Balti	Balti	balt1258	bft	B	Balti	Skardu Valley, Skardu town and Hussainabad village	Sino-Tibetan	35.289137	75.607395	Coordinates were retrieved from epsg.io
 KHP	Khapalu Balti	Balti	balt1258	bft	B	Balti	Khapalu Valley, Konewa village	Sino-Tibetan	35.163409	76.342552	Coordinates were retrieved from epsg.io
-KMG	Kharmang Balti	Balti	balt1258	bft	B	Balti	Kharmang Valley	Sino-Tibetan	76.213849	34.968679	Coordinates were retrieved from epsg.io
+KMG	Kharmang Balti	Balti	balt1258	bft	B	Balti	Kharmang Valley	Sino-Tibetan	34.968679	76.213849	Coordinates were retrieved from epsg.io
 CHO	Chorbat Balti	Balti	balt1258	bft	B	Balti	Chorbat, Siksa village	Sino-Tibetan	34.979586	72.680387	Coordinates were retrieved from epsg.io
 PSK	Skardu Purki	Purik-Sham-Nubra	puri1258	prx	B	Balti	Skardu Purki	Sino-Tibetan			
 HUS	Hussainabad	Hunza	hunz1248		C	Burushaski	Hunza, Hussainabad	Burushaski			
