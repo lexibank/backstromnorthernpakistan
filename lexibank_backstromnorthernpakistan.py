@@ -24,21 +24,11 @@ class Dataset(pylexibank.Dataset):
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
-        concepts = {}
+        concepts, data = {}, []
 
-        data = []
-        for i in ["A.tsv", "B.tsv", "C.tsv", "D.tsv", "E.tsv", "F.tsv"]:
-            with open(self.dir.joinpath("raw", i).as_posix(), encoding="utf-8") as csvfile:
-                reader = csv.DictReader(csvfile, delimiter="\t")
-                raw_lexemes = [row for row in reader]
-            data.extend(raw_lexemes)
-
-        add_lang = {
-            language["Source_ID"]: slug(language["Name"], lowercase=False)
-            for language in self.languages
-        }
-
-        args.writer.add_languages(id_factory=lambda x: slug(x["Name"], lowercase=False))
+        languages = args.writer.add_languages(
+            id_factory=lambda x: slug(x["Name"], lowercase=False), lookup_factory="Source_ID"
+        )
 
         for conceptlist in self.conceptlists:
             for concept in conceptlist.concepts.values():
@@ -50,13 +40,19 @@ class Dataset(pylexibank.Dataset):
 
                 concepts[concept.id] = cid
 
+        for i in ["A.tsv", "B.tsv", "C.tsv", "D.tsv", "E.tsv", "F.tsv"]:
+            with open(self.dir.joinpath("raw", i).as_posix(), encoding="utf-8") as csvfile:
+                reader = csv.DictReader(csvfile, delimiter="\t")
+                raw_lexemes = [row for row in reader]
+            data.extend(raw_lexemes)
+
         for idx, entry in pylexibank.progressbar(enumerate(data)):
             entry.pop("ENGLISH")
             entry.pop("LIST ID")
             glossid = entry.pop("GLOSS ID")
             for lang, value in entry.items():
                 args.writer.add_forms_from_value(
-                    Language_ID=add_lang[lang.strip()],
+                    Language_ID=languages[lang.strip()],
                     Parameter_ID=concepts[glossid],
                     Value=value,
                     Source=["Backstrom1992"],
