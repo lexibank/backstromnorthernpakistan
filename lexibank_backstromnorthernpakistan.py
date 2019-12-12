@@ -1,75 +1,63 @@
-import attr
-from clldutils.misc import slug
-from clldutils.path import Path
-from clldutils.text import split_text, strip_brackets
-from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.dataset import Concept, Language
-from pylexibank.util import pb
 import csv
+from pathlib import Path
+
+import attr
+import pylexibank
+from clldutils.misc import slug
 
 
 @attr.s
-class Language(Language):
+class CustomLanguage(pylexibank.Language):
     Source_ID = attr.ib(default=None)
     List_ID = attr.ib(default=None)
     List_Name = attr.ib(default=None)
     Location = attr.ib(default=None)
-    Latitude = attr.ib(default=None)
-    Longitude = attr.ib(default=None)
     Note = attr.ib(default=None)
 
-@attr.s
-class Concept(Concept):
-    ENGLISH = attr.ib(default=None)
 
-
-class Dataset(BaseDataset):
-    id = 'backstromnorthernpakistan'
+class Dataset(pylexibank.Dataset):
+    id = "backstromnorthernpakistan"
     dir = Path(__file__).parent
-    concept_class = Concept
-    language_class = Language
+    language_class = CustomLanguage
 
-    def clean_form(self, item, form):
-        if form not in ["–"]:
-            return strip_brackets(form)
+    form_spec = pylexibank.FormSpec(separators="/")
 
-    def split_forms(self, item, value):
-        if value in self.lexemes:
-            value = self.lexemes.get(value, value)
-        return [self.clean_form(item, form)
-            for form in split_text(value, separators='/')]
+    def cmd_makecldf(self, args):
+        args.writer.add_sources()
+        concepts = {}
 
-    def cmd_install(self, **kw):
         data = []
         for i in ["A.tsv", "B.tsv", "C.tsv", "D.tsv", "E.tsv", "F.tsv"]:
-            with open(self.dir.joinpath("raw", i).as_posix(), encoding='utf-8') as csvfile:
+            with open(self.dir.joinpath("raw", i).as_posix(), encoding="utf-8") as csvfile:
                 reader = csv.DictReader(csvfile, delimiter="\t")
                 raw_lexemes = [row for row in reader]
             data.extend(raw_lexemes)
 
-        with self.cldf as ds:
-            ds.add_sources(*self.raw.read_bib())
+        add_lang = {
+            language["Source_ID"]: slug(language["Name"], lowercase=False)
+            for language in self.languages
+        }
 
-            add_lang = {language['Source_ID']: slug(language['Name'],
-                lowercase=False) for language in self.languages}
-            ds.add_languages(id_factory=lambda x: slug(x['Name'],
-                lowercase=False))
-			
-            for concept in self.concepts:
-                ds.add_concept(
-                    ID=concept['ID'],
-                    Name=concept['ENGLISH'],
-                    Concepticon_ID=concept['CONCEPTICON_ID'],
-                    Concepticon_Gloss=concept['CONCEPTICON_GLOSS'],
+        args.writer.add_languages(id_factory=lambda x: slug(x["Name"], lowercase=False))
+
+        for conceptlist in self.conceptlists:
+            for concept in conceptlist.concepts.values():
+                cid = concept.id.split("-")[-1] + "_" + slug(concept.english)
+
+                args.writer.add_concept(
+                    ID=cid, Name=concept.english, Concepticon_ID=concept.concepticon_id
                 )
 
-            for idx, entry in pb(enumerate(data), desc='make-cldf'):
-                entry.pop('ENGLISH')
-                entry.pop('LIST ID')
-                glossid = entry.pop('GLOSS ID')
-                for lang, value in entry.items():
-                    ds.add_forms_from_value(
-                        Language_ID=add_lang[lang.strip()],
-                        Parameter_ID=glossid,
-                        Value=value,
-                        Source=['Backstrom1992'])
+                concepts[concept.id] = cid
+
+        for idx, entry in pylexibank.progressbar(enumerate(data)):
+            entry.pop("ENGLISH")
+            entry.pop("LIST ID")
+            glossid = entry.pop("GLOSS ID")
+            for lang, value in entry.items():
+                args.writer.add_forms_from_value(
+                    Language_ID=add_lang[lang.strip()],
+                    Parameter_ID=concepts[glossid],
+                    Value=value,
+                    Source=["Backstrom1992"],
+                )
