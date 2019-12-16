@@ -24,7 +24,7 @@ class Dataset(pylexibank.Dataset):
 
     def cmd_makecldf(self, args):
         args.writer.add_sources()
-        concepts, data = {}, []
+        data = []
 
         languages = args.writer.add_languages(
             id_factory=lambda x: slug(x["Name"], lowercase=False), lookup_factory="Source_ID"
@@ -32,13 +32,9 @@ class Dataset(pylexibank.Dataset):
 
         for conceptlist in self.conceptlists:
             for concept in conceptlist.concepts.values():
-                cid = concept.id.split("-")[-1] + "_" + slug(concept.english)
-
                 args.writer.add_concept(
-                    ID=cid, Name=concept.english, Concepticon_ID=concept.concepticon_id
+                    ID=concept.id, Name=concept.english, Concepticon_ID=concept.concepticon_id
                 )
-
-                concepts[concept.id] = cid
 
         for i in ["A.tsv", "B.tsv", "C.tsv", "D.tsv", "E.tsv", "F.tsv"]:
             with open(self.dir.joinpath("raw", i).as_posix(), encoding="utf-8") as csvfile:
@@ -53,7 +49,7 @@ class Dataset(pylexibank.Dataset):
             for lang, value in entry.items():
                 args.writer.add_forms_from_value(
                     Language_ID=languages[lang.strip()],
-                    Parameter_ID=concepts[glossid],
+                    Parameter_ID=glossid,
                     Value=value,
                     Source=["Backstrom1992"],
                 )

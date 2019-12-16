@@ -21,7 +21,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/backstromnorthernpakistan",
-            "dc:created": "e3ed530"
+            "dc:created": "e5b864e"
         },
         {
             "rdf:type": "prov:Entity",
@@ -241,7 +241,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 311,
+            "dc:extent": 1233,
             "tableSchema": {
                 "columns": [
                     {

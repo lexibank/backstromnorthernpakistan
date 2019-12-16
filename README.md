@@ -35,7 +35,7 @@ Since the source book provides the word lists in the form of phonetic transcript
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
 - **Varieties:** 51
-- **Concepts:** 311
+- **Concepts:** 1,233
 - **Lexemes:** 11,343
 - **Sources:** 1
 - **Synonymy:** 1.10
