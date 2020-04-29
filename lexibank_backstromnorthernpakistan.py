@@ -3,7 +3,7 @@ from clldutils.misc import slug
 from clldutils.path import Path
 from clldutils.text import split_text, strip_brackets
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.dataset import Concept, Language
+from pylexibank.models import Concept, Language
 from pylexibank.util import pb
 import csv
 
