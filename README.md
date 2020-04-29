@@ -1,4 +1,4 @@
-# Sociolinguistic Survey of Northern Pakistan
+# CLDF dataset derived from Backstrom and Radloff's "Sociolinguistic Survey of Northern Pakistan" from 1992
 
 Cite the source dataset as
 
@@ -43,3 +43,13 @@ Since the source book provides the word lists in the form of phonetic transcript
 - **Tokens:** 50,502
 - **Segments:** 281 (0 BIPA errors, 0 CTLS sound class errors, 279 CLTS modified)
 - **Inventory size (avg):** 97.35
+
+# Contributors
+
+Name               | GitHub user       | Description                   | Role
+---                | ---               | ---                           | ---
+Christoph Rzymski  | @chrzyki          | maintainer                    | author
+Johann-Mattis List | @LinguList        | maintainer                    | author
+Natalia Morozova   | @natalia-morozova | digitization, concept mapping | other
+
+

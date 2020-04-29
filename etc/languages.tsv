@@ -5,17 +5,17 @@ RON_B	Rondu Balti	Balti	balt1258	bft	B	Balti	Rondu Valley, Basho village	Sino-Ti
 SHG	Shigar Balti	Balti	balt1258	bft	B	Balti	Shigar Valley, Shigar and Churka villages	Sino-Tibetan	35.422616	75.737108	Coordinates were retrieved from epsg.io
 SKB	Skardu Balti	Balti	balt1258	bft	B	Balti	Skardu Valley, Skardu town and Hussainabad village	Sino-Tibetan	35.289137	75.607395	Coordinates were retrieved from epsg.io
 KHP	Khapalu Balti	Balti	balt1258	bft	B	Balti	Khapalu Valley, Konewa village	Sino-Tibetan	35.163409	76.342552	Coordinates were retrieved from epsg.io
-KMG	Kharmang Balti	Balti	balt1258	bft	B	Balti	Kharmang Valley	Sino-Tibetan	76.213849	34.968679	Coordinates were retrieved from epsg.io
+KMG	Kharmang Balti	Balti	balt1258	bft	B	Balti	Kharmang Valley	Sino-Tibetan	34.968679	76.213849	Coordinates were retrieved from epsg.io
 CHO	Chorbat Balti	Balti	balt1258	bft	B	Balti	Chorbat, Siksa village	Sino-Tibetan	34.979586	72.680387	Coordinates were retrieved from epsg.io
 PSK	Skardu Purki	Purik-Sham-Nubra	puri1258	prx	B	Balti	Skardu Purki	Sino-Tibetan			
-HUS	Hussainabad	Hunza	hunz1248		C	Burushaski	Hunza, Hussainabad	Burushaski			
-MUR	Murtazabad	Hunza	hunz1248		C	Burushaski	Hunza, Murtazabad	Burushaski			
-HYD	Haiderabad	Hunza	hunz1248		C	Burushaski	Hunza, Haiderabad	Burushaski			
-GAN	Ganish	Hunza	hunz1248		C	Burushaski	Hunza, Ganish	Burushaski			
-NAZ	Nazimabad (Upper Sust) 	Hunza	hunz1248		C	Burushaski	Hunza (Gojal), Nazimabad	Burushaski			
-UYU	Uyum Nagar	Nagar	naga1398		C	Burushaski	Nagar, Uyum Nagar	Burushaski			
-HOP	Hoper	Nagar	naga1398		C	Burushaski	Nagar, Hoper	Burushaski			
-YAS_C	Yasin Center	Yasin	yasi1237		C	Burushaski	Central Yasin, Yasin Bala	Burushaski			
+HUS	Hussainabad	Hunza	hunz1248		C	Burushaski	Hunza, Hussainabad	Burushaski	36.6865546	74.8234606	
+MUR	Murtazabad	Hunza	hunz1248		C	Burushaski	Hunza, Murtazabad	Burushaski	36.2821952	74.5889064	
+HYD	Haiderabad	Hunza	hunz1248		C	Burushaski	Hunza, Haiderabad	Burushaski	36.2969008	74.5985662	
+GAN	Ganish	Hunza	hunz1248		C	Burushaski	Hunza, Ganish	Burushaski	36.312159	74.6626353	
+NAZ	Nazimabad (Upper Sust) 	Hunza	hunz1248		C	Burushaski	Hunza (Gojal), Nazimabad	Burushaski	36.6717915	74.8337469	
+UYU	Uyum Nagar	Nagar	naga1398		C	Burushaski	Nagar, Uyum Nagar	Burushaski	36.1528358	74.8461621	
+HOP	Hoper	Nagar	naga1398		C	Burushaski	Nagar, Hoper	Burushaski	36.1528358	74.8461621	
+YAS_C	Yasin Center	Yasin	yasi1237		C	Burushaski	Central Yasin, Yasin Bala	Burushaski	36.4092359	73.0214217	
 THU	Thui (Yasin)	Yasin	yasi1237		C	Burushaski	Northern Yasin, Thui	Burushaski			
 PSU	Passu	Gojal	goja1238		D	Wakhi	Central Gojal, Passu	Indo-European			
 SHM	Shimshal				D	Wakhi	Shimshal, Shimshal	Indo-European	36.435521	75.325492	Coordinates were retrieved from epsg.io
@@ -40,7 +40,7 @@ KAC	Kachura (Jel)				F	Shina	Kachura Shina, Jel (Tsok) in Kachura Valley	Indo-Eu
 SAT	Satpara	Satpara	satp1241		F	Shina	Satpara Shina, Satpara (Saspur) Valley	Indo-European			
 GUL	Gultari				F	Shina	Gultari Shina, Bunial in Gultari	Indo-European	34.660371	75.539611	Coordinates were retrieved from epsg.io
 KRM	Kharmang	Kharmangi	khar1285		F	Shina	Kharmang Shina, Tarkati in Kharmang	Indo-European			
-DRS	Dras	Dras	dras1242		F	Shina	Dras Shina, Bhimbhat in Dras (India)	Indo-European			
+DRS	Dras	Dras	dras1242		F	Shina	Dras Shina, Bhimbhat in Dras (India)	Indo-European	34.4478362	75.5947267	
 CHK	Chilas (Khinar)	Chilas	chil1277		F	Shina	Chilas Shina, Khinar in Tok Nala in Chilas	Indo-European			
 CHJ	Chilas (Jelil)	Chilas	chil1277		F	Shina	Chilas Shina, Jelil in Chilas	Indo-European			
 DAR	Darel	Darel	dare1241		F	Shina	Darel Shina, Gayal and Samegal in Darel	Indo-European			

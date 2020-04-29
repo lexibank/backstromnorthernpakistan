@@ -5,7 +5,6 @@ import attr
 import pylexibank
 from clldutils.misc import slug
 
-
 @attr.s
 class CustomLanguage(pylexibank.Language):
     Source_ID = attr.ib(default=None)
@@ -42,7 +41,7 @@ class Dataset(pylexibank.Dataset):
                 raw_lexemes = [row for row in reader]
             data.extend(raw_lexemes)
 
-        for idx, entry in pylexibank.progressbar(enumerate(data)):
+        for idx, entry in pylexibank.progressbar(enumerate(data), desc='cldfify'):
             entry.pop("ENGLISH")
             entry.pop("LIST ID")
             glossid = entry.pop("GLOSS ID")
