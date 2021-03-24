@@ -7,13 +7,21 @@
     ],
     "creators": [
         {
-            "name": "Christoph Rzymski"
+            "name": "Backstrom, Peter C."
         },
         {
-            "name": "Johann-Mattis List"
+            "name": "Radloff, Carla F."
         }
     ],
     "contributors": [
+        {
+            "name": "Christoph Rzymski",
+            "type": "Other"
+        },
+        {
+            "name": "Johann-Mattis List",
+            "type": "Other"
+        },
         {
             "name": "Natalia Morozova",
             "type": "Other"

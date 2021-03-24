@@ -2,6 +2,8 @@
 
 Name               | GitHub user       | Description                   | Role
 ---                | ---               | ---                           | ---
-Christoph Rzymski  | @chrzyki          | maintainer                    | author
-Johann-Mattis List | @LinguList        | maintainer                    | author
+Backstrom, Peter C. | | | Author
+Radloff, Carla F. | | | Author
+Christoph Rzymski  | @chrzyki          | maintainer                    | other
+Johann-Mattis List | @LinguList        | maintainer                    | other
 Natalia Morozova   | @natalia-morozova | digitization, concept mapping | other
