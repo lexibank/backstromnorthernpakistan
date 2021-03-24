@@ -17,6 +17,6 @@ setup(
     entry_points={
         "lexibank.dataset": ["backstromnorthernpakistan=lexibank_backstromnorthernpakistan:Dataset"]
     },
-    install_requires=["pylexibank>=2.1"],
+    install_requires=["pylexibank>=3.0"],
     extras_require={"test": ["pytest-cldf"]},
 )

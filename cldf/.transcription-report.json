@@ -48113,8 +48113,30 @@
         }
     },
     "stats": {
-        "bad_words": [],
-        "bad_words_count": 0,
+        "bad_words": [
+            [
+                "Urdu-Backstrom-1992-210a-33-2",
+                "Urdu",
+                "Backstrom-1992-210a-33",
+                "-i",
+                "+ i"
+            ],
+            [
+                "Urdu-Backstrom-1992-210a-35-2",
+                "Urdu",
+                "Backstrom-1992-210a-35",
+                "-i",
+                "+ i"
+            ],
+            [
+                "Urdu-Backstrom-1992-210a-62-2",
+                "Urdu",
+                "Backstrom-1992-210a-62",
+                "-i",
+                "+ i"
+            ]
+        ],
+        "bad_words_count": 3,
         "bipa_errors": [],
         "general_errors": 0,
         "invalid_words": [],

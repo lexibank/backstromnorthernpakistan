@@ -303,8 +303,11 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|------|------------|-----------|--------|------------|
+|:------------------------------|:-----------|:-----------------------|:-------|:-----------|
+| Urdu-Backstrom-1992-210a-33-2 | Urdu | Backstrom-1992-210a-33 | -i | + i |
+| Urdu-Backstrom-1992-210a-35-2 | Urdu | Backstrom-1992-210a-35 | -i | + i |
+| Urdu-Backstrom-1992-210a-62-2 | Urdu | Backstrom-1992-210a-62 | -i | + i |
 
-(0 rows)
+(3 rows)
 
 

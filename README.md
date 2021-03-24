@@ -4,6 +4,8 @@ Cite the source dataset as
 
 > Backstrom, Peter C. and Radloff, Carla F. (1992): Sociolinguistic Survey of Northern Pakistan, Volume 2. Languages of Northern Areas. Islamabad: National Institute of Pakistan Studies.
 
+This dataset is licensed under a CCBY-NC license
+
 
 Conceptlists in Concepticon:
 - [Backstrom-1992-210a](https://concepticon.clld.org/contributions/Backstrom-1992-210a)
