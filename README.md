@@ -42,7 +42,7 @@ Since the source book provides the word lists in the form of phonetic transcript
 - **Sources:** 1
 - **Synonymy:** 1.10
 - **Invalid lexemes:** 0
-- **Tokens:** 50,502
+- **Tokens:** 50,499
 - **Segments:** 281 (0 BIPA errors, 0 CTLS sound class errors, 279 CLTS modified)
 - **Inventory size (avg):** 97.35
 

@@ -45239,7 +45239,7 @@
             },
             "sclass_errors": [],
             "segments": {
-                "+": 69,
+                "+": 66,
                 "b": 44,
                 "b\u02b0": 4,
                 "b\u02b1": 3,
@@ -48113,30 +48113,8 @@
         }
     },
     "stats": {
-        "bad_words": [
-            [
-                "Urdu-Backstrom-1992-210a-33-2",
-                "Urdu",
-                "Backstrom-1992-210a-33",
-                "-i",
-                "+ i"
-            ],
-            [
-                "Urdu-Backstrom-1992-210a-35-2",
-                "Urdu",
-                "Backstrom-1992-210a-35",
-                "-i",
-                "+ i"
-            ],
-            [
-                "Urdu-Backstrom-1992-210a-62-2",
-                "Urdu",
-                "Backstrom-1992-210a-62",
-                "-i",
-                "+ i"
-            ]
-        ],
-        "bad_words_count": 3,
+        "bad_words": [],
+        "bad_words_count": 0,
         "bipa_errors": [],
         "general_errors": 0,
         "invalid_words": [],
@@ -48983,7 +48961,7 @@
         },
         "sclass_errors": [],
         "segments": {
-            "+": 1238,
+            "+": 1235,
             "b": 1127,
             "b\u02b0": 5,
             "b\u02b1": 3,
