@@ -72,7 +72,7 @@ Backstrom-1992-210a-70,barley,932,BARLEY
 Backstrom-1992-210a-71,rice (husked),926,RICE
 Backstrom-1992-210a-72,potato,593,POTATO
 Backstrom-1992-210a-73,eggplant,1146,AUBERGINE
-Backstrom-1992-210a-74,groundnut,2364,PEANUT
+Backstrom-1992-210a-74,groundnut,595,GROUNDNUT (PEANUT)
 Backstrom-1992-210a-75,chili,919,CHILI PEPPER
 Backstrom-1992-210a-76,turmeric,2842,TURMERIC
 Backstrom-1992-210a-77,garlic,2368,GARLIC
@@ -487,7 +487,7 @@ Backstrom-1992-210c-70,millet,931,MILLET
 Backstrom-1992-210c-71,rice,926,RICE
 Backstrom-1992-210c-72,potato,593,POTATO
 Backstrom-1992-210c-73,eggplant,1146,AUBERGINE
-Backstrom-1992-210c-74,groundnut,2364,PEANUT
+Backstrom-1992-210c-74,groundnut,595,GROUNDNUT (PEANUT)
 Backstrom-1992-210c-75,chili,919,CHILI PEPPER
 Backstrom-1992-210c-76,turmeric,2842,TURMERIC
 Backstrom-1992-210c-77,garlic,2368,GARLIC
@@ -892,7 +892,7 @@ Backstrom-1992-210e-70,millet,931,MILLET
 Backstrom-1992-210e-71,rice,926,RICE
 Backstrom-1992-210e-72,potato,593,POTATO
 Backstrom-1992-210e-73,eggplant,1146,AUBERGINE
-Backstrom-1992-210e-74,groundnut,2364,PEANUT
+Backstrom-1992-210e-74,groundnut,595,GROUNDNUT (PEANUT)
 Backstrom-1992-210e-75,chili,919,CHILI PEPPER
 Backstrom-1992-210e-76,turmeric,2842,TURMERIC
 Backstrom-1992-210e-77,garlic,2368,GARLIC
@@ -1099,7 +1099,7 @@ Backstrom-1992-210f-69,wheat,1077,WHEAT
 Backstrom-1992-210f-71,rice,926,RICE
 Backstrom-1992-210f-72,potato,593,POTATO
 Backstrom-1992-210f-73,eggplant,1146,AUBERGINE
-Backstrom-1992-210f-74,groundnut,2364,PEANUT
+Backstrom-1992-210f-74,groundnut,595,GROUNDNUT (PEANUT)
 Backstrom-1992-210f-75,chili,919,CHILI PEPPER
 Backstrom-1992-210f-76,turmeric,2842,TURMERIC
 Backstrom-1992-210f-77,garlic,2368,GARLIC

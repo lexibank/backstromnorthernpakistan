@@ -1,8 +1,14 @@
 # CLDF dataset derived from Backstrom and Radloff's "Sociolinguistic Survey of Northern Pakistan" from 1992
 
-Cite the source dataset as
+## How to cite
 
-> Backstrom, Peter C. and Radloff, Carla F. (1992): Sociolinguistic Survey of Northern Pakistan, Volume 2. Languages of Northern Areas. Islamabad: National Institute of Pakistan Studies.
+If you use these data please cite
+- the original source
+  > Backstrom, Peter C. and Radloff, Carla F. (1992): Sociolinguistic Survey of Northern Pakistan, Volume 2. Languages of Northern Areas. Islamabad: National Institute of Pakistan Studies.
+- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+
+## Description
+
 
 This dataset is licensed under a CCBY-NC license
 
@@ -57,3 +63,10 @@ Johann-Mattis List | @LinguList        | maintainer                    | other
 Natalia Morozova   | @natalia-morozova | digitization, concept mapping | other
 
 
+
+
+## CLDF Datasets
+
+The following CLDF datasets are available in [cldf](cldf):
+
+- CLDF [Wordlist](https://github.com/cldf/cldf/tree/master/modules/Wordlist) at [cldf/cldf-metadata.json](cldf/cldf-metadata.json)
