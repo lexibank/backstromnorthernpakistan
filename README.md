@@ -1,7 +1,5 @@
 # CLDF dataset derived from Backstrom and Radloff's "Sociolinguistic Survey of Northern Pakistan" from 1992
 
-[![CLDF validation](https://github.com/lexibank/backstromnorthernpakistan/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/backstromnorthernpakistan/actions?query=workflow%3ACLDF-validation)
-
 ## How to cite
 
 If you use these data please cite
@@ -12,7 +10,7 @@ If you use these data please cite
 ## Description
 
 
-This dataset is licensed under a CC-BY-4.0 license
+This dataset is licensed under a CCBY-NC license
 
 
 Conceptlists in Concepticon:
@@ -37,21 +35,21 @@ Since the source book provides the word lists in the form of phonetic transcript
 ## Statistics
 
 
-[![CLDF validation](https://github.com/lexibank/backstromnorthernpakistan/workflows/CLDF-validation/badge.svg)](https://github.com/lexibank/backstromnorthernpakistan/actions?query=workflow%3ACLDF-validation)
+[![Build Status](https://travis-ci.org/lexibank/backstromnorthernpakistan.svg?branch=master)](https://travis-ci.org/lexibank/backstromnorthernpakistan)
 ![Glottolog: 86%](https://img.shields.io/badge/Glottolog-86%25-yellowgreen.svg "Glottolog: 86%")
 ![Concepticon: 100%](https://img.shields.io/badge/Concepticon-100%25-brightgreen.svg "Concepticon: 100%")
 ![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 ![BIPA: 100%](https://img.shields.io/badge/BIPA-100%25-brightgreen.svg "BIPA: 100%")
 ![CLTS SoundClass: 100%](https://img.shields.io/badge/CLTS%20SoundClass-100%25-brightgreen.svg "CLTS SoundClass: 100%")
 
-- **Varieties:** 51 (linked to 30 different Glottocodes)
-- **Concepts:** 1,233 (linked to 224 different Concepticon concept sets)
+- **Varieties:** 51
+- **Concepts:** 1,233
 - **Lexemes:** 11,343
 - **Sources:** 1
 - **Synonymy:** 1.10
 - **Invalid lexemes:** 0
 - **Tokens:** 50,499
-- **Segments:** 281 (0 BIPA errors, 0 CLTS sound class errors, 279 CLTS modified)
+- **Segments:** 281 (0 BIPA errors, 0 CTLS sound class errors, 279 CLTS modified)
 - **Inventory size (avg):** 97.35
 
 # Contributors
@@ -60,9 +58,9 @@ Name               | GitHub user       | Description                   | Role
 ---                | ---               | ---                           | ---
 Backstrom, Peter C. | | | Author
 Radloff, Carla F. | | | Author
-Christoph Rzymski  | @chrzyki          | maintainer                    | Editor
-Johann-Mattis List | @LinguList        | maintainer                    | Editor
-Natalia Morozova   | @natalia-morozova | digitization, concept mapping | Other
+Christoph Rzymski  | @chrzyki          | maintainer                    | other
+Johann-Mattis List | @LinguList        | maintainer                    | other
+Natalia Morozova   | @natalia-morozova | digitization, concept mapping | other
 
 
 
