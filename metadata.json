@@ -2,7 +2,7 @@
 
     "title": "CLDF dataset derived from Backstrom and Radloff's \"Sociolinguistic Survey of Northern Pakistan\" from 1992",
     "url": "",
-    "license": "CCBY-NC",
+    "license": "CC-BY-4.0",
 	"citation": "Backstrom, Peter C. and Radloff, Carla F. (1992): Sociolinguistic Survey of Northern Pakistan, Volume 2. Languages of Northern Areas. Islamabad: National Institute of Pakistan Studies.",
     "conceptlist": [
 		"Backstrom-1992-210a",
